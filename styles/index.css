@@ -10,9 +10,7 @@ font-weight: 800;
 }
 
 .header-image{
-width: 535px;
-height: 800px;
-flex-shrink: 0;
+width: 500px;
 }
 
 .paragraph-style{
@@ -27,6 +25,7 @@ display: flex;
 .banner{
     padding: 30px 30px 30px 150px;
     display: flex;
+    align-items: center;
 }
 
 .btn-primary{
@@ -35,5 +34,39 @@ background: #E55473;
 display: flex;
 padding: 12px 30px;
 border-radius: 8px;
+}
+
+/* section style start here */
+.section-featured{
+    background: #FFF;;
+}
+
+.section-title{
+color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+
+.section-description{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+}
+
+.flower-container{
+    display: flex;
+    text-align:justify;
+}
+.flower-size{
+    width: 200px;
+}
+.flower-text{
+    color: #272727;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
 }
 
