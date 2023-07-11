@@ -34,6 +34,7 @@ background: #E55473;
 display: flex;
 padding: 12px 30px;
 border-radius: 8px;
+/* text-align: center; */
 }
 
 /* section style start here */
@@ -83,6 +84,7 @@ background: rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
 background: rgba(71, 125, 17, 0.15);
 }
+
 .flower-text{
     color: #272727;
     text-align: center;
@@ -107,6 +109,8 @@ background: rgba(71, 125, 17, 0.15);
 .hot-deal{
     display: flex;
     border-radius: 8px;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -121,6 +125,9 @@ font-weight: 800;
     background: #FFF;
     margin: 50px;
     padding: 50px;
+}
+.instragram-main-section{
+    background: #FFF;
 }
 
 .flower-resize{
@@ -156,10 +163,13 @@ font-weight: 800;
 color: rgba(39, 39, 39, 0.60);
 text-align: center;
 /* font-family: Lato; */
-font-size: 18px;
+font-size: 14px;
 /* font-style: normal; */
 font-weight: 400;
 line-height: 30px;
+/* font-size: 14px; */
+/* color: #FFF; */
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .background-image{
@@ -192,34 +202,6 @@ width: 400px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .main-footer{
     background-color: black;
     text-align: center;
@@ -237,14 +219,19 @@ width: 400px;
 color: rgba(255, 255, 255, 0.90);
 text-align: center;
 font-size: 14px;
-font-weight: 600;
+font-weight: 400;
 line-height: 30px;
 flex-direction: column;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 
 }
 .footer-end{
-    color: #FFF;
+font-size: 14px;
+font-weight: 400;
+color: #FFF;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .flower-span{
-    color: #E55473;
+color: #E55473;
 }
