@@ -13,7 +13,7 @@ font-weight: 800;
 width: 500px;
 }
 
-.paragraph-style{
+.paragraph-primary{
 color: rgba(39, 39, 39, 0.60);
 font-size: 15px;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -38,7 +38,7 @@ border-radius: 8px;
 
 /* section style start here */
 .section-featured{
-    background: #FFF;;
+    background: #FFF;
 }
 
 .section-title{
@@ -48,25 +48,114 @@ font-size: 40px;
 font-weight: 800;
 }
 
-.section-description{
-color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 18px;
-}
 
 .flower-container{
     display: flex;
-    text-align:justify;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 10px;
+   
+    
 }
 .flower-size{
     width: 200px;
+    margin: 100px;
 }
 .flower-text{
     color: #272727;
-text-align: center;
-font-size: 24px;
-font-weight: 700;
-line-height: 35px;
-text-decoration-line: underline;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+
 }
 
+.section-group{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    /* background: #FFF;; */
+    margin: 100px;
+    padding: 15px;
+}
+
+.hot-deal{
+    display: flex;
+    border-radius: 8px;
+
+}
+
+.hot-deal-title{
+color: #272727;
+font-size: 40px;
+font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-footer{
+    background-color: black;
+    text-align: center;
+    
+    
+}
+
+.footer-header{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-paragraph{
+color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-size: 14px;
+font-weight: 600;
+line-height: 30px;
+flex-direction: column;
+
+}
+.footer-end{
+    color: #FFF;
+}
+.flower-span{
+    color: #E55473;
+}
