@@ -41,6 +41,16 @@ border-radius: 8px;
     background: #FFF;
 }
 
+.paragraph-featured{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 .section-title{
 color: #272727;
 text-align: center;
@@ -52,9 +62,9 @@ font-weight: 800;
 .flower-container{
     display: flex;
     text-align: center;
-    justify-content: space-between;
-    width: 100%;
-    margin-right: 10px;
+    /* justify-content: space-between; */
+    gap: 12px;
+    margin: 170px;
    
     
 }
@@ -76,10 +86,11 @@ background: rgba(71, 125, 17, 0.15);
 .flower-text{
     color: #272727;
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
+    
 
 }
 
@@ -105,12 +116,79 @@ font-size: 40px;
 font-weight: 800;
 }
 
+.instagram-image-section{
+    display: flex;
+    background: #FFF;
+    margin: 50px;
+    padding: 50px;
+}
 
+.flower-resize{
+    width: 250px;
+    height: 250px;
+}
+.instagram-section{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
 
+.instagram-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
 
+.deal-section{
+color: #272727;
+text-align: center;
+/* font-family: Lato; */
+font-size: 40px;
+/* font-style: normal; */
+font-weight: 800;
+/* line-height: normal; */
+}
 
+.deal-paragraph-section{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+/* font-family: Lato; */
+font-size: 18px;
+/* font-style: normal; */
+font-weight: 400;
+line-height: 30px;
+}
 
+.background-image{
+    /* height: 70vh; */
+    text-align: center;
+    background-image: url("../Flower Asset/Rectangle\ 9.png");
+    /* border-radius: 8px; */
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 400px;
+    padding: 20px;
+    /* margin: 50px 60px 50px 50px; */
 
+}
+
+.subcribe-btn{
+color: #FFF;
+background: #E55473;
+/* display: flex; */
+padding: 12px 30px;
+border-radius: 8px;
+}
+
+.email-section{
+padding: 12px 30px;
+border-radius: 8px;
+background: #FFF;
+width: 400px;
+}
 
 
 
